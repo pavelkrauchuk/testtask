@@ -1,0 +1,19 @@
+{
+    "name": "pavelkrauchuk/testtask",
+    "autoload": {
+        "psr-4": {
+            "Pavelkrauchuk\\Testtask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Krauchuk",
+            "email": "pavel.krauchuk@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-curl": "*",
+      "php": ">=8.0"
+    }
+}
