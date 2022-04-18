@@ -7,7 +7,7 @@ namespace Pavelkrauchuk\Testtask;
 
 class Database
 {
-    /** @var string DNS-строка для подключения к БД */
+    /** @var string DSN-строка для подключения к БД */
     private static string $dsn = 'mysql:dbname=testtask;host=127.0.0.1';
 
     /** @var string Имя пользователя БД */
